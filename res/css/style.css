@@ -1,0 +1,46 @@
+
+
+body{
+    background-color:darkgrey;
+
+}
+
+menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+
+
+#startButton {
+color: white;
+background-color: cadetblue;
+
+border: none;
+border-radius: 8px;
+padding: 0.5em;
+padding-left: 0.7em;
+padding-right: 0.7em;
+cursor: pointer;
+transition: 0.4s ease;
+}
+
+
+#point {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+
+    
+}
+
