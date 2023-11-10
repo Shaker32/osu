@@ -2,7 +2,7 @@
 
 body{
     background-color:darkgrey;
-
+    overflow: hidden;
 }
 
 menu {
@@ -40,7 +40,8 @@ transition: 0.4s ease;
     border: 10px;
     background-color: cornflowerblue;
     cursor: pointer;
-
+    transition: 0.4s ease;
     
 }
+
 
